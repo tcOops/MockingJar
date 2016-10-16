@@ -1,0 +1,3 @@
+include ':samples:SpeechRecoExample'
+
+include ':javaapkcomMyActivity'

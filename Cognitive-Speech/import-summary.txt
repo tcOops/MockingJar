@@ -1,0 +1,87 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .DS_Store
+* .idea\
+* .idea\.DS_Store
+* .idea\.name
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\encodings.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\scopes\
+* .idea\scopes\scope_settings.xml
+* .idea\workspace.xml
+* SystemService.iml
+* ant.properties
+* build.xml
+* out\
+* out\.DS_Store
+* out\production\
+* out\production\.DS_Store
+* out\production\SystemService\
+* out\production\SystemService\.DS_Store
+* out\production\SystemService\SystemService.apk
+* out\production\SystemService\SystemService.unaligned.apk
+* out\production\SystemService\com\
+* out\production\SystemService\com\.DS_Store
+* out\production\SystemService\com\andrew\
+* out\production\SystemService\com\andrew\.DS_Store
+* out\production\SystemService\com\andrew\systemservice\
+* out\production\SystemService\com\andrew\systemservice\BuildConfig.class
+* out\production\SystemService\com\andrew\systemservice\R$attr.class
+* out\production\SystemService\com\andrew\systemservice\R$drawable.class
+* out\production\SystemService\com\andrew\systemservice\R$id.class
+* out\production\SystemService\com\andrew\systemservice\R$layout.class
+* out\production\SystemService\com\andrew\systemservice\R$string.class
+* out\production\SystemService\com\andrew\systemservice\R.class
+* out\production\SystemService\com\andrew\systemservice\SystemService3$playRecord.class
+* out\production\SystemService\com\andrew\systemservice\SystemService3$recordSound.class
+* out\production\SystemService\com\andrew\systemservice\SystemService3.class
+* proguard-project.txt
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => javaapkcomMyActivity\src\main\AndroidManifest.xml
+* assets\ => javaapkcomMyActivity\src\main\assets
+* libs\commons-codec-1.9.jar => javaapkcomMyActivity\libs\commons-codec-1.9.jar
+* libs\commons-logging-1.2.jar => javaapkcomMyActivity\libs\commons-logging-1.2.jar
+* libs\fluent-hc-4.5.2.jar => javaapkcomMyActivity\libs\fluent-hc-4.5.2.jar
+* libs\httpclient-4.5.2.jar => javaapkcomMyActivity\libs\httpclient-4.5.2.jar
+* libs\httpclient-cache-4.5.2.jar => javaapkcomMyActivity\libs\httpclient-cache-4.5.2.jar
+* libs\httpclient-win-4.5.2.jar => javaapkcomMyActivity\libs\httpclient-win-4.5.2.jar
+* libs\httpcore-4.4.4.jar => javaapkcomMyActivity\libs\httpcore-4.4.4.jar
+* libs\httpmime-4.5.2.jar => javaapkcomMyActivity\libs\httpmime-4.5.2.jar
+* libs\jna-4.1.0.jar => javaapkcomMyActivity\libs\jna-4.1.0.jar
+* libs\jna-platform-4.1.0.jar => javaapkcomMyActivity\libs\jna-platform-4.1.0.jar
+* res\ => javaapkcomMyActivity\src\main\res\
+* src\ => javaapkcomMyActivity\src\main\java\
+* src\.DS_Store => javaapkcomMyActivity\src\main\resources\.DS_Store
+* src\com\.DS_Store => javaapkcomMyActivity\src\main\resources\com\.DS_Store
+* src\com\andrew\.DS_Store => javaapkcomMyActivity\src\main\resources\com\andrew\.DS_Store
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
